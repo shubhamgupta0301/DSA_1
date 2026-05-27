@@ -8,7 +8,6 @@ public class learn {
         for(int i=0;i<size;i++){
             arr[i] = input.nextInt();
         }
-        //input.close();
         return arr;
     }
     public static void Func_To_Print_even(int[] arr){
