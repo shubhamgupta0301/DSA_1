@@ -5,14 +5,12 @@ public class Shortest_path_btw_even_in_array {
         int min = -1;
         for(int i=0 ; i<arr.length ; i++){
             if(arr[i]%2 == 0){
-                int ans = -1;
                 for(int j =i+1 ; j<arr.length ; j++){
                     if(arr[j]%2 == 0){
                         if(min == -1) min = j-i;
                         min = Math.min(min, j-i);
                         break;
                     }
-                    ans++;
                 }
             }
         }
