@@ -7,7 +7,7 @@ public class AssignmentOperators {
 
         // =
         q = p;
-        System.out.println(q); // 10
+        System.out.println(q);
  
         //+=
         p += q; // p = p + q, p = 10 + 10
