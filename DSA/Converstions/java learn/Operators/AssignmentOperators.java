@@ -20,8 +20,11 @@ public class AssignmentOperators {
        System.out.println(p); //100
 
 
-        p /= q; // p = p / q, p = 10 / 10 = 1
-        System.out.println(p); // 1
+        p /= q; // p = p / q, p = 100 / 10 = 10
+        System.out.println(p); // 10
+       
+        
+        
 
 
 
